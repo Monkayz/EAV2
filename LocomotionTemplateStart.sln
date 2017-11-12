@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocomotionTemplateStart", "LocomotionTemplateStart.csproj", "{AA5FA05C-84DE-82D5-6CBA-67AF2C3E4F47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocomotionTemplateStart.Editor", "LocomotionTemplateStart.Editor.csproj", "{DC71B910-64D2-9D1D-0C82-E040DE446DFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA5FA05C-84DE-82D5-6CBA-67AF2C3E4F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5FA05C-84DE-82D5-6CBA-67AF2C3E4F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5FA05C-84DE-82D5-6CBA-67AF2C3E4F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5FA05C-84DE-82D5-6CBA-67AF2C3E4F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC71B910-64D2-9D1D-0C82-E040DE446DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC71B910-64D2-9D1D-0C82-E040DE446DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC71B910-64D2-9D1D-0C82-E040DE446DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC71B910-64D2-9D1D-0C82-E040DE446DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
