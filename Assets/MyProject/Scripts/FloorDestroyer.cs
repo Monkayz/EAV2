@@ -12,6 +12,7 @@ public class FloorDestroyer : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.E) && playerNextToKey == true) {
 			Destroy (obj1);
 			Destroy (obj2);
+            //print("Destroyed");
 		}
 	}
 
@@ -19,7 +20,7 @@ public class FloorDestroyer : MonoBehaviour {
 		if (collider.tag == "Player") {
 			playerNextToKey = true;
 		}
-	}
+    }
 
 	void OnTriggerExit(Collider collider){
 		if (collider.tag == "Player") {

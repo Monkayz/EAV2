@@ -140,7 +140,7 @@ public class vSimpleDoor : vMonoBehaviour
 
     void OnTriggerStay(Collider collider)
     {
-		if (autoOpen && !isOpen && tagsToOpen.Contains(collider.tag) || Door == true && key.active == false)
+		if (autoOpen && !isOpen && tagsToOpen.Contains(collider.tag) || Door == true && key.activeSelf == false)
         {
             forwardDotVelocity = Mathf.Abs(Vector3.Angle(transform.forward, collider.transform.position - transform.position));
             if (forwardDotVelocity < 60.0f)

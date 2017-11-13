@@ -9,8 +9,8 @@ public class KeyScript : MonoBehaviour {
 
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.E) && playerNextToKey == true) {
-			key.active = false;
-		}
+            key.SetActive(false);
+        }
 	}
 		
 	void OnTriggerEnter(Collider collider){

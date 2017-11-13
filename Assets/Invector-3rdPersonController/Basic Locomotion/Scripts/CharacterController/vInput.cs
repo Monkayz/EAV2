@@ -70,9 +70,9 @@ namespace Invector
             {
             	#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN
             	
-                XInputDotNetPure.GamePad.SetVibration(0, 1, 1);
+               // XInputDotNetPure.GamePad.SetVibration(0, 1, 1);
                 yield return new WaitForSeconds(vibTime);
-	            XInputDotNetPure.GamePad.SetVibration(0, 0, 0);
+	           // XInputDotNetPure.GamePad.SetVibration(0, 0, 0);
 	            
 	            #else
 	            yield return new WaitForSeconds(0f);
