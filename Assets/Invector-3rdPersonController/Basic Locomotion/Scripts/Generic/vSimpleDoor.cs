@@ -31,6 +31,8 @@ public class vSimpleDoor : vMonoBehaviour
     private bool invertAngle;
     private bool canOpen;
     public bool stop;
+	public GameObject key;
+	private bool Door = false;
     public NavMeshObstacle navMeshObstacle;
     public UnityEvent onOpen, onClose;
 
@@ -44,7 +46,7 @@ public class vSimpleDoor : vMonoBehaviour
             navMeshObstacle.carving = true;
         }
     }
-
+		
     void OnDrawGizmos()
     {
         if (pivot)
@@ -138,7 +140,7 @@ public class vSimpleDoor : vMonoBehaviour
 
     void OnTriggerStay(Collider collider)
     {
-        if (autoOpen && !isOpen && tagsToOpen.Contains(collider.tag))
+		if (autoOpen && !isOpen && tagsToOpen.Contains(collider.tag) || Door == true && key.active == false)
         {
             forwardDotVelocity = Mathf.Abs(Vector3.Angle(transform.forward, collider.transform.position - transform.position));
             if (forwardDotVelocity < 60.0f)
@@ -170,11 +172,20 @@ public class vSimpleDoor : vMonoBehaviour
         }
     }
 
+	void OnTriggerEnter(Collider collider){
+		if (collider.tag == "Player") {
+			Door = true;
+		}
+	}
     void OnTriggerExit(Collider collider)
     {
         if (autoClose && isOpen && tagsToOpen.Contains(collider.tag))
         {
             StartCoroutine(_Close());
         }
+
+		if (collider.tag == "Player") {
+			Door = false;
+		}
     }
 }
