@@ -6,11 +6,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadLevelHook : MonoBehaviour {
 
 	public void LoadLevel(int ID){
-		LevelManager.Instance.LoadLevel (ID);
+		//LevelManager.Instance.LoadLevel (ID);
+		SceneManager.LoadScene (ID);
 	}
 
 	public void LoadLevel(string name){
