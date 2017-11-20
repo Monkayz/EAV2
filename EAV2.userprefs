@@ -1,12 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyProject\Scripts\LoadSceneOnClick.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyProject\Scripts\FloorDestroyer.cs">
     <Files>
       <File FileName="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\vSimpleDoor.cs" Line="1" Column="1" />
       <File FileName="Assets\MyProject\Scripts\KeyScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyProject\Scripts\FloorDestroyer.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyProject\Scripts\LoadSceneOnClick.cs" Line="11" Column="37" />
-      <File FileName="Assets\MyProject\Scripts\QuitOnClick.cs" Line="8" Column="3" />
+      <File FileName="Assets\MyProject\Scripts\FloorDestroyer.cs" Line="13" Column="19" />
+      <File FileName="Assets\MyProject\Scripts\LoadSceneOnClick.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyProject\Scripts\QuitOnClick.cs" Line="1" Column="1" />
       <File FileName="Assets\MyProject\Scripts\SelectOnInput.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

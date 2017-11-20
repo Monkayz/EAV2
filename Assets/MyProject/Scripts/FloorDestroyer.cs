@@ -8,23 +8,11 @@ public class FloorDestroyer : MonoBehaviour {
 	public GameObject obj2;
 	private bool playerNextToKey = false;
 
-	void Update () {
-		if (Input.GetKeyDown (KeyCode.E) && playerNextToKey == true) {
-			Destroy (obj1);
-			Destroy (obj2);
-            print("Destroyed");
-		}
-	}
-
 	void OnTriggerEnter(Collider collider){
 		if (collider.tag == "Player") {
-			playerNextToKey = true;
+			Destroy (obj1);
+			Destroy (obj2);
+			//print("Destroyed");
 		}
     }
-
-	void OnTriggerExit(Collider collider){
-		if (collider.tag == "Player") {
-			playerNextToKey = false;
-		}
-	}
 }
