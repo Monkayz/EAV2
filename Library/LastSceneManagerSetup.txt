@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/MyProject/Scenes/LevelDesign_Level.003.unity
+- path: Assets/MyProject/Scenes/LevelDesign_Level.004.unity
   isLoaded: 1
   isActive: 1

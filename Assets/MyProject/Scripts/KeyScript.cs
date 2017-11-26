@@ -5,11 +5,13 @@ using UnityEngine.Events;
 
 public class KeyScript : MonoBehaviour {
 	public GameObject key;
+	public GameObject keyUI;
 	private bool playerNextToKey = false;
 
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.E) && playerNextToKey == true) {
             key.SetActive(false);
+			keyUI.SetActive (true);
         }
 	}
 		
