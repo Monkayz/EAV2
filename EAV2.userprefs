@@ -1,13 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyProject\Scripts\KeyScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyProject\Scripts\DoctorMovement.cs">
     <Files>
-      <File FileName="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\vSimpleDoor.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyProject\Scripts\KeyScript.cs" Line="14" Column="27" />
-      <File FileName="Assets\MyProject\Scripts\FloorDestroyer.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyProject\Scripts\LoadSceneOnClick.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyProject\Scripts\QuitOnClick.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyProject\Scripts\SelectOnInput.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyProject\Scripts\KeyScript.cs" Line="17" Column="52" />
+      <File FileName="Assets\MyProject\Scripts\DoctorMovement.cs" Line="19" Column="3" />
+      <File FileName="Assets\MyProject\Scripts\FloorDestroyer.cs" Line="19" Column="1" />
+      <File FileName="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\vHealthItem.cs" Line="4" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
