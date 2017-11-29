@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class KeyScript : MonoBehaviour {
 	public GameObject key;
 	public GameObject keyUI;
+	public Vector3 RotateAmount;
 	private bool playerNextToKey = false;
 
 	void Update () {
@@ -13,6 +14,7 @@ public class KeyScript : MonoBehaviour {
             key.SetActive(false);
 			keyUI.SetActive (true);
         }
+		transform.Rotate (RotateAmount * Time.deltaTime);
 	}
 		
 	void OnTriggerEnter(Collider collider){
