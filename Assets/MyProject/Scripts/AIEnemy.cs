@@ -9,7 +9,7 @@ public class AIEnemy : MonoBehaviour {
 	public float enemyAttackDistance;
 	public float enemyMovementSpeed;
 	public float damping;
-	public float playerHealth;
+	public int damage = -100;
 	public Transform thirdPersonTarget;
 	Rigidbody theRigidBody;
 	Renderer myRender;
@@ -43,11 +43,9 @@ public class AIEnemy : MonoBehaviour {
 
 	void attackPlease(){
 		theRigidBody.AddForce (transform.forward * enemyMovementSpeed);
+		Invector.CharacterController.vThirdPersonController.instance.ChangeHealth (damage);
 	}
-	void OnCollisionEnter(Collision col){
-		if (col.gameObject.name == "Player") {
-			Destroy (col.gameObject);
-			print ("DED");
-		}
-	}
+	//void OnCollisionEnter(Collision col){
+	//	Invector.CharacterController.vThirdPersonController.instance.ChangeHealth (damage);
+	//}
 }
