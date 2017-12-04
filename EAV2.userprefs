@@ -1,11 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyProject\Scripts\DoctorMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyProject\Scripts\AIEnemy.cs">
     <Files>
-      <File FileName="Assets\MyProject\Scripts\KeyScript.cs" Line="17" Column="52" />
-      <File FileName="Assets\MyProject\Scripts\DoctorMovement.cs" Line="19" Column="3" />
-      <File FileName="Assets\MyProject\Scripts\FloorDestroyer.cs" Line="19" Column="1" />
-      <File FileName="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\vHealthItem.cs" Line="4" Column="1" />
+      <File FileName="Assets\MyProject\Scripts\AIEnemy.cs" Line="33" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
